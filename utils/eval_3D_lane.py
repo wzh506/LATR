@@ -250,7 +250,7 @@ class LaneEval(object):
                     x_error_far.append(x_dist_mat_far[gt_i, pred_i])
                     z_error_close.append(z_dist_mat_close[gt_i, pred_i])
                     z_error_far.append(z_dist_mat_far[gt_i, pred_i])
-        # # Visulization to be added
+        # # Visulization to be added #openlane没有做可视化代码
         # if vis:
         #     pass 
         return r_lane, p_lane, c_lane, cnt_gt, cnt_pred, match_num, x_error_close, x_error_far, z_error_close, z_error_far

@@ -1,2 +1,8 @@
 *pyc
 *pth
+/mmcv
+/mmdetection3d
+/mmdetection
+data/apollosyn_gen-lanenet
+data/openlane
+work_dirs/apollo

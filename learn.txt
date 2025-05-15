@@ -1,0 +1,7 @@
+1.环境配置说明
+conda create -n latr python=3.8
+我的三个都是从库安装的
+
+
+2.需要链接到当前数据集下面
+CUDA_VISIBLE_DEVICES='0,1' python -m torch.distributed.launch --nproc_per_node 2 main.py --config config/release_iccv/apollo_standard.py
